@@ -436,6 +436,7 @@ export default class Rnd extends React.Component<Props, State> {
         grid={this.props.dragGrid}
         bounds={this.props.bounds ? this.state.bounds : undefined}
         position={this.props.position}
+        cancel={this.props.cancel}
       >
         <Resizable
           {...this.props.extendsProps}
